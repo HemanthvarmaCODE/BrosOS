@@ -44,12 +44,12 @@ BrosOS/
 To build and run BrosOS, you’ll need:
 
 `Rust` (Nightly)
-```bash```
+```bash
 rustup default nightly
 rustup component add rust-src   # Set your default Rust to Nightly version
 rustup target add x86_64-unknown-none   # Adds Rust source code (needed for no_std builds)
 NASM — for compiling the bootloader     # Adds target for building bare-metal x86_64 binaries
-
+```
 QEMU — to emulate the OS
 
 make — build automation tool
@@ -94,6 +94,7 @@ Predictive scheduling or resource allocation
 
 👨‍💻 Contributing
 This is an educational project! Feel free to fork, contribute, or suggest features.
+
 
 
 
