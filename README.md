@@ -6,7 +6,7 @@
 
 ## 📁 Project Structure
 
-```text```
+```text
 BrosOS/
 ├── bootloader/
 │   ├── asm/
@@ -19,6 +19,7 @@ BrosOS/
 ├── Cargo.toml                    # Kernel crate metadata
 ├── Makefile                      # Build automation (nasm + QEMU)
 └── README.md                     # This file
+```
 
 ---
 
@@ -93,5 +94,6 @@ Predictive scheduling or resource allocation
 
 👨‍💻 Contributing
 This is an educational project! Feel free to fork, contribute, or suggest features.
+
 
 
